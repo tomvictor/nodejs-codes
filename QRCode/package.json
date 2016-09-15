@@ -1,0 +1,27 @@
+{
+  "name": "qrgen",
+  "version": "1.0.0",
+  "description": "This app will generate QRCodes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomvictor/nodejs-codes.git"
+  },
+  "keywords": [
+    "QR",
+    "Code",
+    "Generator"
+  ],
+  "author": "Tomvictor (github.com/tomvictor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tomvictor/nodejs-codes/issues"
+  },
+  "homepage": "https://github.com/Tomvictor/nodejs-codes#readme",
+  "dependencies": {
+    "qr-image": "^3.1.0"
+  }
+}
