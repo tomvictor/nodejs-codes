@@ -11,7 +11,7 @@
  app.route('/').get(function (req,res,next) {
  	// body...
  	// res.send('<h1>hello world</h1>');
- 	res.render('index');
+ 	res.render('index', {title:'welcome to my chat app'});
  })
 
  app.listen(3000,function () {
