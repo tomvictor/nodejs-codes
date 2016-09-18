@@ -8,11 +8,7 @@
  app.set('view engine','html');
  app.use(express.static(path.join(__dirname,'public')));
 
- app.route('/').get(function (req,res,next) {
- 	// body...
- 	// res.send('<h1>hello world</h1>');
- 	res.render('index', {title:'welcome to my chat app'});
- })
+ require('./routes/route.js')(express,app);
 
  app.listen(3000,function () {
  	// body...
