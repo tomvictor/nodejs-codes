@@ -1,0 +1,26 @@
+{
+  "name": "mqtt-app",
+  "version": "1.0.0",
+  "description": "demonstration of mqtt on nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomvictor/nodejs-codes.git"
+  },
+  "keywords": [
+    "mqtt",
+    "nodejs"
+  ],
+  "author": "Tomvictor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tomvictor/nodejs-codes/issues"
+  },
+  "homepage": "https://github.com/Tomvictor/nodejs-codes#readme",
+  "dependencies": {
+    "mqtt": "^2.0.0"
+  }
+}
