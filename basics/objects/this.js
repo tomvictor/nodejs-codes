@@ -10,5 +10,7 @@ Person.prototype.greet = function() {
 
 var tom = new Person('tom', 'victor');
 console.log(tom.firstname);
-
 tom.greet();
+
+var arun = new Person('arun', 'pm');
+arun.greet();
