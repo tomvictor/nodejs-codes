@@ -1,3 +1,4 @@
+//object properties and methords
 console.log('hello world');
 
 var obj = {
@@ -6,3 +7,7 @@ var obj = {
 
 console.log(obj.greet);
 console.log(obj["greet"]);
+
+var prop = "greet";
+
+console.log(obj[prop]) ;
