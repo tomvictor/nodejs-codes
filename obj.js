@@ -13,3 +13,5 @@ person.greet();
 
 
 console.log(person['firtname']);
+
+console.log(person['greet']);
