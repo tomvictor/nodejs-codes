@@ -8,7 +8,7 @@ greet();
 
 //functions are first class
 
-function logGreeting(fu) {
+function logGreeting(fn) {
 	fn();
 }
 
