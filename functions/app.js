@@ -5,3 +5,11 @@ function greet() {
 }
 
 greet();
+
+//functions are first class
+
+function logGreeting(fu) {
+	fn();
+}
+
+logGreeting(greet);
