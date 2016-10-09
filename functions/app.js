@@ -21,3 +21,5 @@ var greetMe = function () {
 }
 
 greetMe();
+
+logGreeting(greetMe);
