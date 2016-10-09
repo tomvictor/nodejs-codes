@@ -3,9 +3,10 @@ var person ={
 	firtname : 'john',
 	lastname : 'Doe' ,
 	greet : function () {
-		console.log('hello' + 
+		console.log('hello' + ' ' +
 			this.firtname + ' ' + 
 			this.lastname);
 	}
 };
 
+person.greet();
