@@ -1,5 +1,7 @@
 //function statements
 
 function greet() {
-	// body...
+	console.log("helllo tom")
 }
+
+greet();
