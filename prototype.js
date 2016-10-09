@@ -4,7 +4,7 @@ function Person(firstname, lastname){
 };
 
 Person.prototype.greet = function () {
-	console.log('hello' + this.firstname + ' '
+	console.log('hello ' + this.firstname + ' '
 		+ this.lastname)
 }
 
@@ -14,3 +14,9 @@ console.log(john.firstname);
 //prottype calling
 
 john.greet();
+
+//new object creation for the demo
+
+var jane = new Person('Jane' , 'tommy');
+
+jane.greet();
