@@ -13,3 +13,11 @@ function logGreeting(fn) {
 }
 
 logGreeting(greet);
+
+//function expression
+
+var greetMe = function () {
+	console.log("variable function")
+}
+
+greetMe();
