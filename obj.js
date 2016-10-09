@@ -10,3 +10,5 @@ var person ={
 };
 
 person.greet();
+
+person['greet'];
