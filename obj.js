@@ -11,4 +11,5 @@ var person ={
 
 person.greet();
 
-person['greet'];
+
+console.log(person['firtname']);
