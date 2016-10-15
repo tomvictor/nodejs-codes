@@ -11,13 +11,16 @@
     "url": "git+https://github.com/Tomvictor/nodejs-codes.git"
   },
   "keywords": [
-    "Tom",
-    "victor"
+    "nodejs",
+    "express"
   ],
   "author": "tomvictor",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Tomvictor/nodejs-codes/issues"
   },
-  "homepage": "https://github.com/Tomvictor/nodejs-codes#readme"
+  "homepage": "https://github.com/Tomvictor/nodejs-codes#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
